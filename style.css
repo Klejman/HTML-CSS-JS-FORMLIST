@@ -1,0 +1,51 @@
+html {
+    background-image: url(./GiphyImage.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    color: #FBF62A;
+    text-shadow:
+     3px 3px 0 #000,
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+body {
+    max-width: 960px;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.wrapper {
+    border: 2px solid #FBF62A;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+form {
+    text-align: center;
+    outline-color: #FBF62A;
+}
+
+#checkList {
+    margin-top: 10px;
+}
+
+.checked-off {
+    text-decoration: line-through;
+}
